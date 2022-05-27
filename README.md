@@ -119,8 +119,6 @@ get_health() – возвращает здоровье, это целое чис
 
 ### Битва с бинарным драконом
 
-[https://lh5.googleusercontent.com/TvT5KYDJ4rigxnec6DQ4eVm_p3tJVbhIIOrmlDVFq_qpc7mqctGWsXdkE-_Qwv6EnYt1W6D2xM9JkHdp9QGTVNc45qr1SuZ77cPuLUzkfkuuecXZZNYsJQuqmwFhNYL5_UeE1oFh](https://lh5.googleusercontent.com/TvT5KYDJ4rigxnec6DQ4eVm_p3tJVbhIIOrmlDVFq_qpc7mqctGWsXdkE-_Qwv6EnYt1W6D2xM9JkHdp9QGTVNc45qr1SuZ77cPuLUzkfkuuecXZZNYsJQuqmwFhNYL5_UeE1oFh)
-
 Создайте класс Dragon с полями:
 
 - color,
