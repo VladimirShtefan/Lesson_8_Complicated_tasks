@@ -12,12 +12,14 @@ class Dragon:
             self.__health += 10
 
     def get_damage(self, x: int):
-        if log(x, 2) % 1 == 0:
-            self.__health = 2 ** (int(log(self.__health, 2)) + 1)
-            return
-        self.__health -= x
-        if self.__health <= 0:
-            self.__is_alive = False
+        if x > 0:
+            if log(x, 2) % 1 == 0:
+                self.__health = 2 ** (int(log(self.__health, 2)) + 1)
+                return
+            self.__health -= x
+            if self.__health <= 0:
+                self.__is_alive = False
+                self.__health = 0
 
     def get_health(self) -> int:
         return self.__health

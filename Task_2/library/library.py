@@ -10,7 +10,9 @@ class Hero:
 
     @staticmethod
     def get_lvl_for_exp(exp: int) -> int:
-        return int(log(4 * exp / 15, 2))
+        if exp >= 15:
+            return int(log(4 * exp / 15, 2))
+        return 1
 
     @staticmethod
     def get_health_for_lvl(lvl: int) -> int:
